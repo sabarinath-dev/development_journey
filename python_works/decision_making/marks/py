@@ -1,0 +1,24 @@
+
+mark1 = int(input("Enter mark 1: "))
+mark2 = int(input("Enter mark 2: "))
+mark3 = int(input("Enter mark 3: "))
+
+Total = mark1 + mark2 + mark3
+
+
+if mark1 <= 50 and mark2 <= 50 and mark3 <= 50:
+
+    if Total > 140:                 #150
+      print("Excellence pool")
+
+    elif Total > 130:               #140  
+      print("Progress pool")
+
+    elif Total > 120:               #130
+        print("Total pool")
+
+    else:                           #110
+        print("Dead pool")
+
+else:
+   print("Not eligible for any pool.")

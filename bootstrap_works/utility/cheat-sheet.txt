@@ -1,0 +1,215 @@
+Absolutely! Here's a **complete cheat sheet of Bootstrap’s most commonly used class shortcuts**, broken down by category with explanations.
+
+> ✅ Based on **Bootstrap 5.x** (current standard). Let me know if you're using a different version.
+
+---
+
+## 🔹 1. **Spacing (Margin & Padding)**
+
+### 📌 Syntax:
+
+```html
+m{side}-{breakpoint?}-{size}
+p{side}-{breakpoint?}-{size}
+```
+
+| Prefix                                                          | Property            | Description               |
+| --------------------------------------------------------------- | ------------------- | ------------------------- |
+| `m`                                                             | margin              | All sides                 |
+| `mt`                                                            | margin-top          | Top only                  |
+| `mb`                                                            | margin-bottom       | Bottom only               |
+| `ms`                                                            | margin-start        | Left in LTR, Right in RTL |
+| `me`                                                            | margin-end          | Right in LTR, Left in RTL |
+| `mx`                                                            | margin-left & right |                           |
+| `my`                                                            | margin-top & bottom |                           |
+| `p`                                                             | padding             | All sides                 |
+| `pt`, `pb`, `ps`, `pe`, `px`, `py` — same as margin equivalents |                     |                           |
+
+### ✅ Examples:
+
+```html
+mt-3      <!-- margin-top: 1rem -->
+mx-auto   <!-- margin-left and margin-right: auto -->
+p-4       <!-- padding: 1.5rem -->
+py-2      <!-- padding-top & bottom: 0.5rem -->
+```
+
+---
+
+## 🔹 2. **Text Alignment & Display**
+
+| Class            | Description       |
+| ---------------- | ----------------- |
+| `text-start`     | Align left (LTR)  |
+| `text-end`       | Align right (LTR) |
+| `text-center`    | Align center      |
+| `d-block`        | Display block     |
+| `d-inline`       | Display inline    |
+| `d-inline-block` | Inline-block      |
+| `d-flex`         | Display: flex     |
+| `d-none`         | Display: none     |
+
+---
+
+## 🔹 3. **Flex Utilities**
+
+| Class                                             | Description               |
+| ------------------------------------------------- | ------------------------- |
+| `d-flex`                                          | Flex container            |
+| `flex-row`, `flex-column`                         | Direction                 |
+| `justify-content-start/end/center/between/around` | Horizontal align          |
+| `align-items-start/end/center`                    | Vertical align            |
+| `gap-2` to `gap-5`                                | Gap between flex children |
+
+✅ Example:
+
+```html
+<div class="d-flex justify-content-between align-items-center">
+```
+
+---
+
+## 🔹 4. **Colors (Text & Background)**
+
+### 🔸 Text Color:
+
+```html
+text-primary
+text-secondary
+text-success
+text-danger
+text-warning
+text-info
+text-light
+text-dark
+text-body
+text-muted
+```
+
+### 🔸 Background Color:
+
+```html
+bg-primary
+bg-secondary
+bg-success
+bg-danger
+bg-warning
+bg-info
+bg-light
+bg-dark
+```
+
+---
+
+## 🔹 5. **Typography**
+
+| Class               | Description          |
+| ------------------- | -------------------- |
+| `fw-bold`           | Font-weight: bold    |
+| `fw-semibold`       | Font-weight: 600     |
+| `fw-light`          | Font-weight: 300     |
+| `text-uppercase`    | UPPERCASE            |
+| `text-lowercase`    | lowercase            |
+| `text-capitalize`   | Capitalize Each Word |
+| `fst-italic`        | Italic               |
+| `lh-1` to `lh-base` | Line height          |
+
+---
+
+## 🔹 6. **Buttons**
+
+| Class              | Description             |
+| ------------------ | ----------------------- |
+| `btn`              | Base button class       |
+| `btn-primary`      | Primary color button    |
+| `btn-outline-*`    | Outline variant         |
+| `btn-sm`, `btn-lg` | Small / Large buttons   |
+| `btn-block` (old)  | Use `d-block w-100` now |
+
+---
+
+## 🔹 7. **Grid System**
+
+| Class               | Description           |
+| ------------------- | --------------------- |
+| `container`         | Fixed-width container |
+| `container-fluid`   | Full-width container  |
+| `row`               | Row for columns       |
+| `col`               | Equal width column    |
+| `col-4`, `col-md-6` | Responsive columns    |
+| `g-0` to `g-5`      | Grid gutter spacing   |
+
+---
+
+## 🔹 8. **Visibility & Display**
+
+| Class                   | Description               |
+| ----------------------- | ------------------------- |
+| `d-none`                | Display none              |
+| `d-sm-block`            | Display block on small up |
+| `d-lg-none`             | Hide on large and up      |
+| `visible` / `invisible` | Toggle visibility         |
+
+---
+
+## 🔹 9. **Position & Z-index**
+
+| Class                                   | Description                   |
+| --------------------------------------- | ----------------------------- |
+| `position-static`                       | Default position              |
+| `position-relative`                     | For positioning inside parent |
+| `position-absolute`                     | Absolute position             |
+| `top-0`, `start-50`, `translate-middle` | Position tricks               |
+| `z-0` to `z-3`                          | Z-index values                |
+
+---
+
+## 🔹 10. **Width / Height Utilities**
+
+| Class                           | Description      |
+| ------------------------------- | ---------------- |
+| `w-25`, `w-50`, `w-75`, `w-100` | Widths as %      |
+| `h-25`, `h-100`                 | Heights as %     |
+| `min-vh-100`                    | Min height 100vh |
+| `max-vw-100`                    | Max width 100vw  |
+
+---
+
+## 🔹 11. **Rounding, Borders, and Shadows**
+
+| Class                                      | Description            |
+| ------------------------------------------ | ---------------------- |
+| `rounded`                                  | Border-radius          |
+| `rounded-circle`                           | Circle image or button |
+| `border`                                   | Add border             |
+| `border-0`, `border-top`, `border-primary` | Border control         |
+| `shadow`, `shadow-sm`, `shadow-lg`         | Box shadows            |
+
+---
+
+## 🔹 12. **Miscellaneous**
+
+| Class           | Description               |
+| --------------- | ------------------------- |
+| `overflow-auto` | Add scroll if needed      |
+| `text-truncate` | Ellipsis on overflow text |
+| `img-fluid`     | Responsive image          |
+| `clearfix`      | Clear floats              |
+
+---
+
+## ✅ Example Usage:
+
+```html
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6 text-center bg-light p-4 rounded shadow">
+      <h2 class="text-primary text-uppercase fw-bold">Hello World</h2>
+      <p class="text-muted">This is a Bootstrap card with padding and shadow.</p>
+    </div>
+  </div>
+</div>
+```
+
+---
+

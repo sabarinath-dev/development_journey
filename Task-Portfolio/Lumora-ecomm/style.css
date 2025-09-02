@@ -1,0 +1,40 @@
+.body{
+    background-color: #f9fafb;
+}
+
+
+/* navbar-style */
+.navbar {
+    background-color: #ffffff;
+}
+
+
+/* brand-name */
+.brand-name{
+    font-weight: bold;
+    font-size: 28px;
+    color: #1e3a8a;
+    font-family: poppins bold;
+}
+
+/* nav-links */
+.nav-links{
+    color: #111827;
+    font-family: roboto regular;
+}
+
+/* category-btn */
+.cat-btn{
+    color: white;
+    background-color:#1e3a8a ;
+    height: 40px;
+    width: 100px;
+}
+
+/* footer-style */
+.footer{
+    color: white;
+    background-color:#1e3a8a ;
+    padding: 20px;
+    font-family: 'roboto', sans-serif;
+}
