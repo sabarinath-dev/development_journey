@@ -1,0 +1,7 @@
+
+
+pangram         -   contains all letters of alphabets
+anagram         -   two different words contains same letters
+palindrome      -   a word shoub be same even after its letters are reversed.
+mergestring     -   merge the letters of two words based on their index
+kangaraooword   -   
