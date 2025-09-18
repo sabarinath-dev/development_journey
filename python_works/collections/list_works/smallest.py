@@ -8,4 +8,4 @@ for num in numbers:
 
         largest_no = num
 
-print("The largest number is:", smallest_no)
+print("The smallest number is:", smallest_no)
