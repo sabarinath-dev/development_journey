@@ -17,3 +17,7 @@ for current in range(0, len(arr) - 1): # Using two pointer
         print(current_element + 1, "is missing.")  # Print the missing number
 
         break  # Exit after finding the first missing number
+
+if arr[next] == arr[-1]:
+
+    print(arr[-1]+1, "is missing")
