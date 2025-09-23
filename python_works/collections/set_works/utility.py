@@ -9,24 +9,40 @@
 """
 class set
 
+    
     def union(self, object) - combine all the elements of two sets.
+    
     def intersection(self,set_obj) - return the common objects in two sets.
+    
     def difference(self,set_object) - remove the elements that are present in set 1 from set 2.
+    
     def issubset(self,set_object) the larger, overall collection that contains all the items of another, smaller collection
+    
     def issuperset(self,set_object) the smaller, collection that contains some of the items of another, larger collection.
+    
     def symmetric_difference - set of objects that are in either A or B but not in both.
-    def add
-    def clear
-    def copy
-    def difference_update
-    def discard
-    def intersection_update
-    def isdisjoint
+    
+    def remove(self,object) -remove an object from the set.
+    
+    def isdisjoint - there will be no common objects in both sets.(intersection will be none)
 
+    def update(self,object) - to update a set with another set.
+
+    def add
+    
+    def clear
+    
+    def copy
+    
+    def difference_update
+    
+    def discard
+    
+    def intersection_update
+    
     def pop
-    def remove
+
     def symmetric_difference_update
-    def update
 
 
 """
@@ -44,4 +60,5 @@ print("Intersection of set1 and set2:", intersection_set)
 print("Difference of set2 and set1:", difference_set)
 print(set2.issuperset(set1))
 print(set1.issubset(set2))
+print(set1.isdisjoint(set2))
 print("Symmetric Difference of set2 and set1:", symme_difference_set)
