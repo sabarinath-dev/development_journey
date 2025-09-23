@@ -8,8 +8,8 @@ collections used for storing and organising many values(objects) in one place in
 collection types:
 
         list[]
-        tuple 
-        set
-        dictionary
+        tuple() 
+        set{}
+        dictionary{}
 
 """

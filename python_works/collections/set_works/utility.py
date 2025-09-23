@@ -28,7 +28,7 @@ class set
 
     def update(self,object) - to update a set with another set.
 
-    def add
+    def add(self,object) - to add an object to a set.
     
     def clear
     
