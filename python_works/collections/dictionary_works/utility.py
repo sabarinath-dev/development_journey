@@ -8,6 +8,13 @@ dictionary = {"key":value}
 
 dictionary["key"] = value - to add/update a dictionary
 
+def keys(self): return all keys
+def values(self) : return all values
+def items()
+def get(self,key)
+def pop(self,key)
+def update(self,key)
+
 """
 
 phone = {"brand":"Xiaomi" , "model":"Redmi 13 pro plus" ,"connection":"5g" , "price": 25000}
