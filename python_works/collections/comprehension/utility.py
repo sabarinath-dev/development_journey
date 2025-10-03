@@ -17,7 +17,7 @@ list = [return value iteration condition]
 
 """
 
-arr = [10,11,12,13,14]
+arr = [10,11,12,13,14,50]
 
 # create a new list from this arr which contains the square of each number.
 
@@ -34,3 +34,10 @@ print(squares)
 
 cubes = [num**3 for num in arr]
 print(cubes)
+
+num_25 = [num for num in arr if num > 25]
+print(num_25)
+
+add = [num + 5 for num in arr]
+
+print(add)
