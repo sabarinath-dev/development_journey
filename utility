@@ -1,0 +1,7 @@
+#functions
+
+#print(message)  display message in console
+
+#input(message) read value through console
+
+#round(number,digit_count) round a number

@@ -1,0 +1,58 @@
+.class {
+
+    px | % | vh     /* units */
+
+    width: ;
+    height: ;
+    background-color: ;
+    color: ;
+
+
+    /* border */
+    border: size | style | color;
+    border-radius: ;
+    box-shadow: horizontal vertical blur color;
+    /*end border */
+
+
+    /* border-spacing */
+    padding: ;
+    margin: top | right | bottom | left;
+    /*end border-spacing */
+
+
+    /* box-elements-alignment */
+    display: flex;
+    justify-content: center | space-between | space-around | space-evenly| flex-start | flex-end;
+    align-items: center | flex-start | flex-end | stretch;
+    /*end box-elements-alignment */
+
+
+    /* grid */
+    display: grid;
+    grid-template-columns: repeat(times, numbers) | 1fr 2fr;
+    grid-template-rows: repeat(times, numbers) | 1fr 2fr;
+    gap: px;
+    flex-direction: row | column;
+    /* end grid */
+
+
+    /* positioning */
+    position: inherit | relative | absolute | fixed | sticky;
+    top: ;
+    right: ;
+    bottom: ;
+    left: ;
+    transform: translate() | translateX(px) | translateY(px) | rotate(deg) | scale(x, y);
+    /* end positioning */
+
+
+    /* text */
+    color: ;
+    font-size: ;
+    font-weight: normal | bold | bolder | lighter;
+    text-align: left | center | right | justify;
+    font-family: Arial, sans-serif | 'Times New Roman', serif | 'Courier New', monospace;
+    text-shadow: horizontal vertical blur color;
+    /* end text */
+}

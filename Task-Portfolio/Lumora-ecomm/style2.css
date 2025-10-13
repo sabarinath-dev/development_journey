@@ -1,0 +1,569 @@
+:root {
+    --lumora-primary: #D6E8EE;
+    /* light background */
+    --lumora-secondary: #97CADB;
+    /* card background */
+    --lumora-white: #ffffff;
+    /* pure white for inputs/text contrast */
+    --lumora-dark: #001B48;
+    /* headings / strong text */
+    --lumora-light: #02457A;
+    /* labels, subtle text */
+    --lumora-accent: #018ABE;
+    /* main brand / buttons */
+    --lumora-accent-soft: #97CADB;
+    /* hover soft blue */
+    --lumora-accent-silver: #D6E8EE;
+    /* borders/dividers */
+    --lumora-highlight: #02457A;
+    /* hover dark */
+    --lumora-border: #97CADB;
+    /* input borders */
+}
+
+
+
+body {
+    background-color: var(--lumora-primary);
+    font-family: 'inter', sans-serif;
+}
+
+/* navbar-style-all-page */
+/* ===== Navbar Styling ===== */
+nav {
+    background-color: var(--navbar-bg);
+    /* Blue background */
+    padding: 0.8rem 1rem;
+    /* Better spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Light shadow */
+}
+
+.navbar-brand {
+    color: var(--navbar-text);
+    /* White brand name */
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: var(--navbar-hover);
+    /* Orange hover */
+}
+
+/* nav links */
+.nav-links .nav-link {
+    color: var(--navbar-text);
+    font-size: 16px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links .nav-link:hover,
+.nav-links .nav-link.active {
+    color: var(--navbar-hover);
+    /* Orange hover/active */
+}
+
+/* dropdown */
+.dropdown-menu {
+    background-color: var(--bg-card);
+    /* White dropdown */
+    border: 1px solid var(--border-card);
+    border-radius: 8px;
+}
+
+.dropdown-item {
+    background-color: var(--lumora-primary);
+    color: var(--text-paragraph);
+    font-size: 15px;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: var(--lumora-secondary);
+    color: var(--text-heading);
+}
+
+
+/* buttons (search + cart) */
+form>.btn {
+    color: var(--navbar-text);
+    margin-left: 10px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+form>.btn:hover {
+    color: var(--lumora-light);
+}
+
+
+/* sign-up page style start */
+.signup-card {
+    background-color: var(--lumora-secondary);
+    width: 40%;
+}
+
+.signup-head {
+    /* Sign Up Heading */
+    color: var(--lumora-dark);
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    /* Sign Up Labels */
+    color: var(--lumora-light);
+}
+
+input {
+    /* Sign Up Inputs */
+    border: 2px solid var(--lumora-border);
+    color: var(--lumora-dark);
+    background-color: var(--lumora-white);
+}
+
+.signup-btn {
+    /* Sign Up Button */
+    background-color: var(--lumora-accent);
+    color: var(--lumora-white);
+}
+
+.signup-btn:hover {
+    /* Sign Up Button Hover */
+    background-color: var(--lumora-light);
+    color: var(--lumora-white);
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.google-btn {
+    /* Google Sign Up Button */
+    color: var(--lumora-accent);
+}
+
+.google-btn:hover {
+    /* Google Sign Up Button Hover */
+    color: var(--lumora-highlight);
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.comment {
+    color: var(--lumora-dark);
+}
+
+.or {
+    color: var(--lumora-accent-silver);
+}
+
+/* sign-up page style end */
+
+
+
+
+
+
+
+/* sign-in page style start */
+
+.container {
+    border-bottom: 1px solid var(--lumora-border);
+}
+
+.signin-card {
+    background-color: var(--lumora-secondary);
+    width: 30%;
+}
+
+.signin-head {
+    /* Sign in Heading */
+    color: var(--lumora-dark);
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    /* Sign in Labels */
+    color: var(--lumora-light);
+}
+
+input {
+    /* Sign in Inputs */
+    border: 2px solid var(--lumora-border);
+    color: var(--lumora-dark);
+    background-color: var(--lumora-white);
+}
+
+.signin-btn {
+    /* Sign In Button */
+    background-color: var(--lumora-accent);
+    color: var(--lumora-white);
+}
+
+.signin-btn:hover {
+    /* Sign in Button Hover */
+    background-color: var(--lumora-light);
+    color: var(--lumora-white);
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.google-btn {
+    /* Google Sign Up Button */
+    color: var(--lumora-accent);
+}
+
+.google-btn:hover {
+    /* Google Sign Up Button Hover */
+    color: var(--lumora-highlight);
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.comment {
+    color: var(--lumora-dark);
+}
+
+.or {
+    color: var(--lumora-border);
+}
+
+/* sign-in page style end */
+
+
+
+
+
+/* otp-page-style start */
+.otp-card {
+    background-color: var(--lumora-secondary);
+    width: 40%;
+    font-family: "Poppins", sans-serif;
+}
+
+.otp-head {
+    /* OTP Heading */
+    color: var(--lumora-accent-gold);
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
+}
+
+.otp-sub {
+    /* Subtitles */
+    color: var(--lumora-light);
+    font-size: 16px;
+}
+
+.otp-input {
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--lumora-accent-silver);
+    border-radius: 100%;
+    background-color: var(--lumora-white);
+    color: var(--lumora-dark);
+}
+
+.otp-container {
+    border: none;
+}
+
+.otp-input:hover,
+.otp-input:focus {
+    border-color: var(--lumora-highlight);
+    outline: none;
+}
+
+.btn-confirm {
+    background-color: var(--lumora-accent-gold);
+    color: var(--lumora-dark);
+    width: 35%;
+    font-weight: 600;
+}
+
+.btn-confirm:hover {
+    /* Confirm Button Hover */
+    background-color: var(--lumora-highlight);
+    color: var(--lumora-white);
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+/* otp-page-style end */
+
+
+
+
+/* index-page start */
+
+/* brand-name */
+.brand-name {
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--lumora-accent);
+    font-family: 'poppins', bold;
+}
+
+/* nav-links */
+.nav-links {
+    color: #111827;
+    font-family: roboto regular;
+}
+
+/* banner-txt */
+.banner-txt {
+    font-family: 'poppins';
+}
+
+/* product-card */
+.product-card {
+    background-color: var(--lumora-light);
+    border: none;
+    font-family: "roboto";
+    color: var(--lumora-white);
+}
+
+/* Featured head */
+.Featured{
+    background-color: var(--lumora-dark);
+    color: var(--lumora-primary);
+}
+
+/* product-btn */
+.prd-btn {
+    border: 2px solid var(--lumora-light);
+    color: var(--lumora-light);
+}
+
+.prd-btn:hover {
+    background-color: var(--lumora-accent-soft);
+    color: var(--lumora-dark);
+}
+
+.card-text {
+    color: var(--lumora-light);
+}
+
+/* category-btn */
+.cat-btn {
+    color: var(--lumora-light);
+    background-color: var(--lumora-accent-soft);
+    height: 40px;
+    width: 100px;
+}
+
+.cat-btn:hover {
+    color: var(--lumora-white);
+    background-color: var(--lumora-dark);
+    height: 40px;
+    width: 100px;
+}
+
+/* footer-style */
+.footer {
+    background-color: var(--lumora-highlight);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
+/* index-page end */
+
+
+
+
+/* cart-page start */
+
+/* card-style */
+.card {
+    background-color: var(--lumora-white);
+    border: 1px solid var(--lumora-border);
+}
+
+/* card-titlles */
+.card-title {
+    color: var(--lumora-dark);
+}
+
+/* cart-labels */
+.cart-label {
+    color: var(--lumora-light);
+}
+
+/* price */
+.price {
+    color: var(--lumora-dark);
+    font-weight: 500;
+}
+
+/* cart-divider-lines */
+.cart-divider {
+    border-color: var(--lumora-dark);
+}
+
+/* cart-btn */
+.cart-btn {
+    background-color: var(--lumora-accent);
+    color: var(--lumora-white);
+}
+
+.cart-btn:hover {
+    background-color: var(--lumora-highlight);
+    color: var(--lumora-white);
+}
+
+.icon {
+    background-color: var(--lumora-light);
+    color: var(--lumora-primary);
+    border-radius: 20%;
+}
+
+.icon:hover {
+    background-color: var(--lumora-accent);
+    color: var(--lumora-white);
+    border-radius: 20%;
+}
+
+/* cart-page end */
+
+
+
+
+/* my-orders start */
+.order-card {
+    background: var(--lumora-white);
+    border: 1px solid var(--lumora-border);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-location {
+    font-size: 14px;
+    color: var(--lumora-light);
+}
+
+/*  Status Badge  */
+.status-badge {
+    background: var(--lumora-accent-soft);
+    color: var(--lumora-dark);
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 5px 12px;
+}
+
+/*  Products  */
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product-item img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.product-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--lumora-dark);
+}
+
+.product-price {
+    font-size: 14px;
+    color: var(--lumora-light);
+    margin: 0;
+}
+
+.total {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--lumora-dark);
+}
+
+/*  Tabs  */
+.tab-btn {
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: var(--lumora-light);
+    transition: 0.3s;
+}
+
+.tab-btn.active {
+    border-bottom: 2px solid var(--lumora-accent);
+    color: var(--lumora-accent);
+}
+
+.tab-btn:hover {
+    color: var(--lumora-highlight);
+}
+
+/*  Details Button  */
+.details-btn {
+    background: var(--lumora-accent);
+    color: var(--lumora-white);
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 14px;
+    border: none;
+    transition: 0.3s;
+}
+
+.details-btn:hover {
+    background: var(--lumora-highlight);
+}
+
+/* my-orders end */
+
+
+
+/* product-details start */
+.product-page {
+    background-color: var(--lumora-white);
+}
+
+.product-title {
+    color: var(--lumora-dark);
+    font-weight: 600;
+}
+
+.product-price {
+    color: var(--lumora-accent);
+    font-weight: 700;
+}
+
+.color-dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid var(--lumora-border);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.color-dot:hover {
+    border: 2px solid var(--lumora-accent);
+}
+
+.rating span {
+    font-size: 80%;
+}
+
+/* product-details end */

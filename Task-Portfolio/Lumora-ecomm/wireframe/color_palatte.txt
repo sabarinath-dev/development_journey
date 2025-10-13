@@ -1,0 +1,164 @@
+LUMORA – E-Commerce HTML Pages Specification (With Colors & Fonts)
+
+
+Global Theme
+
+Primary Color: #1E3A8A (Dark Blue)
+
+Secondary Color: #2563EB (Bright Blue)
+
+Accent Color: #F59E0B (Amber)
+
+Background Color: #F9FAFB (Light Gray)
+
+Text Color: #111827 (Dark Gray-Black)
+
+
+Fonts:
+
+Headings: "Poppins", sans-serif
+
+Body text: "Roboto", sans-serif
+
+
+Buttons:
+
+Primary: Background → Dark Blue #1E3A8A, Text → White #FFFFFF
+
+Secondary: Background → Transparent, Border → Dark Blue #1E3A8A, Text → Dark Blue #1E3A8A
+
+
+
+---
+
+1. Sign Up Page
+
+Logo (Top Center): Text Color → Dark Blue #1E3A8A, Font → Poppins Bold
+
+Form Background: White #FFFFFF
+
+Input Labels: Text Color → Dark Gray #111827, Font → Roboto Regular
+
+Input Fields: Border → Light Gray #D1D5DB, Font → Roboto Regular, Text Color → Dark Gray #111827
+
+Sign Up Button: Background → Dark Blue #1E3A8A, Text → White #FFFFFF, Font → Poppins Bold
+
+Link (Sign In): Text Color → Bright Blue #2563EB, Font → Roboto Regular
+
+
+
+---
+
+2. Sign In Page
+
+Logo (Top Center): Text Color → Dark Blue #1E3A8A, Font → Poppins Bold
+
+Form Background: White #FFFFFF
+
+Labels: Text Color → Dark Gray #111827, Font → Roboto Regular
+
+Inputs: Border → Light Gray #D1D5DB, Font → Roboto Regular, Text Color → Dark Gray #111827
+
+Sign In Button: Background → Dark Blue #1E3A8A, Text → White #FFFFFF, Font → Poppins Bold
+
+Link (Forgot Password/Create Account): Text Color → Bright Blue #2563EB, Font → Roboto Regular
+
+
+
+---
+
+3. Home Page (Index)
+
+Nav Bar Background: White #FFFFFF
+
+Logo: Dark Blue #1E3A8A, Font → Poppins Bold
+
+Search Bar: Background → Light Gray #F3F4F6, Border → Light Gray #D1D5DB, Font → Roboto Regular
+
+Cart Icon: Dark Gray #111827
+
+Hero Banner Text: Primary Heading → White #FFFFFF, Font → Poppins Bold; Subheading → Light Gray #F9FAFB, Font → Roboto Regular
+
+Category Titles: Dark Blue #1E3A8A, Font → Poppins Bold
+
+Product Cards: Background → White #FFFFFF, Border → Light Gray #E5E7EB, Shadow → subtle, Title Font → Poppins Bold (Dark Gray #111827), Price Font → Poppins Bold (Amber #F59E0B), Button → Dark Blue #1E3A8A with White Text
+
+
+
+---
+
+4. Products Listing Page
+
+Breadcrumb: Text Color → Dark Gray #111827, Font → Roboto Regular
+
+Category Menu: Background → White #FFFFFF, Active Item → Dark Blue #1E3A8A, Font → Poppins Bold
+
+Sort & Filter Text: Dark Gray #111827, Font → Roboto Regular
+
+Product Grid Cards: Same as homepage product card specs
+
+Pagination Numbers: Text → Dark Blue #1E3A8A, Active → Bright Blue #2563EB, Font → Poppins Bold
+
+
+
+---
+
+5. Single Product Details Page
+
+Product Title: Dark Gray #111827, Font → Poppins Bold
+
+Price: Amber #F59E0B, Font → Poppins Bold
+
+Description: Dark Gray #111827, Font → Roboto Regular
+
+Tabs (Description, Reviews, Specs): Inactive → Dark Gray #6B7280, Active → Dark Blue #1E3A8A, Font → Poppins Bold
+
+Add to Cart Button: Dark Blue #1E3A8A background, White #FFFFFF text, Font → Poppins Bold
+
+
+
+---
+
+6. Cart Summary Page
+
+Product Names: Dark Gray #111827, Font → Poppins Bold
+
+Quantity Selector: Border → Light Gray #D1D5DB, Font → Roboto Regular
+
+Prices: Amber #F59E0B, Font → Poppins Bold
+
+Subtotal/Total Labels: Dark Gray #111827, Font → Poppins Bold
+
+Checkout Button: Dark Blue #1E3A8A background, White #FFFFFF text, Font → Poppins Bold
+
+
+
+---
+
+7. OTP Verification Page
+
+Instruction Text: Dark Gray #111827, Font → Roboto Regular
+
+OTP Boxes: Border → Light Gray #D1D5DB, Background → White #FFFFFF, Font → Poppins Bold, Text → Dark Blue #1E3A8A
+
+Verify Button: Dark Blue #1E3A8A background, White #FFFFFF text, Font → Poppins Bold
+
+Resend Link: Bright Blue #2563EB, Font → Roboto Regular
+
+
+
+---
+
+8. Orders Page
+
+Table Header: Background → Dark Blue #1E3A8A, Text → White #FFFFFF, Font → Poppins Bold
+
+Order Rows: Background → White #FFFFFF, Text → Dark Gray #111827, Font → Roboto Regular
+
+Status Badges:
+
+Shipped → Background Bright Blue #2563EB, Text White #FFFFFF, Font → Roboto Bold
+
+Delivered → Background Green #10B981, Text White #FFFFFF, Font → Roboto Bold
+
+Processing → Background Amber #F59E0B, Text White #FFFFFF, Font → Roboto Bold

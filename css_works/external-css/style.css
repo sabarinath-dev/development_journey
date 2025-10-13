@@ -1,0 +1,22 @@
+/* select */
+/* tagname|class -> . |id -> # */
+/* tagselector */
+h1 {
+  color: yellow;
+  text-align: center;
+}
+body {
+  background-color: purple;
+}
+/* id -> # */
+#id-python{
+    color: rgb(255, 184, 53);
+}
+#id-degree{
+    color: rgb(26, 255, 26);
+    text-align: right;
+}
+/* class -> . */
+#id-html{
+    color: red;
+}

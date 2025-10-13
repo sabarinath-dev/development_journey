@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMORA</title>
+
+    <!-- bs cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- fontawsme cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom-css-cdn -->
+    <link rel="stylesheet" href="./style2.css">
+
+</head>
+
+<body>
+
+    <!-- nav-section -->
+    <nav class="navbar navbar-expand-lg bg-body-white navbar">
+
+        <div class="container navbar">
+
+            <!-- brand-name -->
+            <a class="navbar-brand brand-name" href="#">Lumora</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- nav-links -->
+            <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-links">
+
+                    <!-- home-button -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">All Products</a>
+                    </li>
+
+                    <!-- categories-dropdown-button -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Lifestyle & Home Decor</a></li>
+                            <li><a class="dropdown-item" href="#">Fashion & Accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Tech & Gadgets</a></li>
+                            <li><a class="dropdown-item" href="#">Premium Stationary</a></li>
+                            <li><a class="dropdown-item" href="#">Beauty and personal Care</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Others-dropdown-button -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Others
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./my_orders.html">My orders</a></li>
+                            <li><a class="dropdown-item" href="#">Return history</a></li>
+                            <li><a class="dropdown-item" href="#">Gold Membership</a></li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+
+                    <!-- search btn -->
+                    <button class="btn" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+                    <!-- cart btn -->
+                    <a href="./cart.html" class="btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <!-- Account btn -->
+                    <a href="./sign-up.html" class="btn">
+                        <i class="fa-solid fa-user"></i> </a>
+                </form>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- end nav-section -->
+
+
+    <!-- banner-section -->
+    <div class="container-fluid text-primary text-bg-dark">
+        <img class="w-100 position-relative" src="./images/banner.png" alt="">
+        <p
+            class="text-center text-light fs-2 fw-bold position-absolute top-50 bottom-50 start-50 translate-middle banner-txt">
+            shop now
+        </p>
+    </div>
+    <!-- end banner-section -->
+
+
+    <!-- products-section -->
+    <div class="container-fluid Featured mt-5 md-2 p-2">
+        <h3 class=" text-center">Featured Products</h3>
+    </div>
+    <div class="container-fluid">
+        <div class="row g-4">
+
+            <!-- card-1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-5">
+                <div class="card text-center position-relative product-card h-100">
+                    <img src="./images/watch.jpg" class="card-img-top" alt="...">
+                    <span class="badge bg-light text-dark rounded position-absolute top-0 end-0 mt-1 me-1">sale!</span>
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title mb-4 fw-bold">LUMORA Classic Watch</h5>
+
+                        <div class="text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <p class="card-text"><del>$200.00</del> <ins>$149.00</ins></p>
+                        <p class="card-text">Timeless design with a leather strap and stainless steel case. Perfect for
+                            both formal and casual wear.</p>
+
+                        <a href="#" class="btn mt-auto prd-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!--end card-1 -->
+
+            <!-- card-2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-5">
+                <div class="card text-center position-relative product-card h-100">
+                    <img src="./images/watch.jpg" class="card-img-top" alt="...">
+                    <span class="badge bg-light text-dark rounded position-absolute top-0 end-0 mt-1 me-1">sale!</span>
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title mb-4 fw-bold">LUMORA Classic Watch</h5>
+
+                        <div class="text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <p class="card-text"><del>$200.00</del> <ins>$149.00</ins></p>
+                        <p class="card-text">Timeless design with a leather strap and stainless steel case. Perfect for
+                            both formal and casual wear.</p>
+
+                        <a href="#" class="btn mt-auto prd-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!--end card-2 -->
+
+            <!-- card-3 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-5">
+                <div class="card text-center position-relative product-card h-100">
+                    <img src="./images/watch.jpg" class="card-img-top" alt="...">
+                    <span class="badge bg-light text-dark rounded position-absolute top-0 end-0 mt-1 me-1">sale!</span>
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title mb-4 fw-bold">LUMORA Classic Watch</h5>
+
+                        <div class="text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <p class="card-text"><del>$200.00</del> <ins>$149.00</ins></p>
+                        <p class="card-text">Timeless design with a leather strap and stainless steel case. Perfect for
+                            both formal and casual wear.</p>
+
+                        <a href="#" class="btn mt-auto prd-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!--end card-3 -->
+
+            <!-- card-4 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-5">
+                <div class="card text-center position-relative product-card h-100">
+                    <img src="./images/watch.jpg" class="card-img-top" alt="...">
+                    <span class="badge bg-light text-dark rounded position-absolute top-0 end-0 mt-1 me-1">sale!</span>
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title mb-4 fw-bold">LUMORA Classic Watch</h5>
+
+                        <div class="text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <p class="card-text"><del>$200.00</del> <ins>$149.00</ins></p>
+                        <p class="card-text">Timeless design with a leather strap and stainless steel case. Perfect for
+                            both formal and casual wear.</p>
+
+                        <a href="#" class="btn mt-auto prd-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!--end card-4 -->
+
+        </div>
+
+        <div class="container-fluid Featured mt-5 md-5 p-2">
+            <h3 class=" text-center">Latest Arrivals</h3>
+        </div>
+
+        <div class="container border-0 mt-5">
+            <!-- products-section-1-start -->
+            <div class="row g-4 p-2">
+
+                <!-- card-1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                    <div class="card text-center position-relative product-card h-100">
+                        <img src="./images/watch.jpg" class="card-img-top" alt="...">
+                        <span
+                            class="badge bg-light text-dark rounded position-absolute top-0 end-0 mt-1 me-1">sale!</span>
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-4 fw-bold">LUMORA Classic Watch</h5>
+
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <p class="card-text"><del>$200.00</del> <ins>$149.00</ins></p>
+                            <a href="#" class="btn mt-auto prd-btn">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!--end card-1 -->
+
+                <!-- card-2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card text-center position-relative product-card h-100">
+                        <img src="./images/watch.jpg" class="card-img-top" alt="...">
+                        <span
+                            class="badge bg-light text-dark rounded position-absolute top-0 end-0 mt-1 me-1">sale!</span>
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-4 fw-bold">LUMORA Classic Watch</h5>
+
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <p class="card-text"><del>$200.00</del> <ins>$149.00</ins></p>
+                            <a href="#" class="btn mt-auto prd-btn">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!--end card-2 -->
+
+                <!-- card-3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card text-center position-relative product-card h-100">
+                        <img src="./images/watch.jpg" class="card-img-top" alt="...">
+                        <span
+                            class="badge bg-light text-dark rounded position-absolute top-0 end-0 mt-1 me-1">sale!</span>
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-4 fw-bold">LUMORA Classic Watch</h5>
+
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <p class="card-text"><del>$200.00</del> <ins>$149.00</ins></p>
+                            <a href="#" class="btn mt-auto prd-btn">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!--end card-3 -->
+
+                <!-- card-4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card text-center position-relative product-card h-100">
+                        <img src="./images/watch.jpg" class="card-img-top" alt="...">
+                        <span
+                            class="badge bg-light text-dark rounded position-absolute top-0 end-0 mt-1 me-1">sale!</span>
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-4 fw-bold">LUMORA Classic Watch</h5>
+
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <p class="card-text"><del>$200.00</del> <ins>$149.00</ins></p>
+                            <a href="#" class="btn mt-auto prd-btn">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!--end card-4 -->
+
+
+            </div>
+            <!-- products-section-1-end -->
+        </div>
+
+    </div>
+    <!-- end products-section -->
+
+
+    <!-- categories -->
+    <div class="container-fluid Featured mt-5 md-5 p-2">
+        <h3 class=" text-center">Categories</h3>
+    </div>
+    <div class="container mt-3 border-0">
+        <div class="row g-5">
+
+            <!-- card-1 start-->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card position-relative h-100">
+                    <img src="./images/varun-gaba-dcgB3CgidlU-unsplash.jpg" class="card-img-top" alt="...">
+                    <a href="#" class="btn position-absolute top-50 start-50 translate-middle cat-btn">Shop-now</a>
+                </div>
+            </div>
+            <!-- card-1-end -->
+
+
+        </div>
+    </div>
+    <!--end categories -->
+
+
+
+    <!-- footer-section -->
+    <div class="card-fluid mt-5 footer">
+        <div class="d-flex justify-content-evenly align-items-center text-center footer-labels">
+            <div class="card-body footer-label">
+                <h6 class="card-title text-light">About-us</h6>
+            </div>
+            <div class="card-body">
+                <h6 class="card-title text-light">Contact-us</h6>
+            </div>
+            <div class="card-body">
+                <h6 class="card-title text-light">Privacy-policy</h6>
+            </div>
+        </div>
+    </div>
+    <!--end footer-section -->
+
+
+</body>
+
+</html>

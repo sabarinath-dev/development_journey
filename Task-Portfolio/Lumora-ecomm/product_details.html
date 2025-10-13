@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMORA</title>
+
+    <!-- bs cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- fontawsme cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom-css-cdn -->
+    <link rel="stylesheet" href="./style2.css">
+
+</head>
+
+<body>
+
+ <!-- nav-section -->
+    <nav class="navbar navbar-expand-lg bg-body-white navbar">
+
+        <div class="container navbar">
+
+            <!-- brand-name -->
+            <a class="navbar-brand brand-name" href="#">Lumora</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- nav-links -->
+            <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-links">
+
+                    <!-- home-button -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">All Products</a>
+                    </li>
+
+                    <!-- categories-dropdown-button -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Lifestyle & Home Decor</a></li>
+                            <li><a class="dropdown-item" href="#">Fashion & Accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Tech & Gadgets</a></li>
+                            <li><a class="dropdown-item" href="#">Premium Stationary</a></li>
+                            <li><a class="dropdown-item" href="#">Beauty and personal Care</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Others-dropdown-button -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Others
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./my_orders.html">My orders</a></li>
+                            <li><a class="dropdown-item" href="#">Return history</a></li>
+                            <li><a class="dropdown-item" href="#">Gold Membership</a></li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+
+                    <!-- search btn -->
+                    <button class="btn" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+                    <!-- cart btn -->
+                    <a href="./cart.html" class="btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <!-- Account btn -->
+                    <a href="./sign-up.html" class="btn">
+                        <i class="fa-solid fa-user"></i> </a>
+                </form>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- end nav-section -->
+
+
+
+    <!-- Product Section start-->
+    <section class="container my-5 product-page rounded-2 p-5">
+    <h3 class="text-center">Product Details</h3>
+<hr>
+        <div class="row">
+
+            <!--Product Images start-->
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="main-img text-center">
+                    <img src="images/shoe.jpg" class="img-fluid rounded border" alt="Product Main Image" width="65%">
+                </div>
+                <div class="d-flex justify-content-center gap-3 mt-3">
+                    <img src="images/shoe.jpg" class="img-thumbnail small-img" alt="Thumbnail" width="15%">
+                    <img src="images/shoe.jpg" class="img-thumbnail small-img" alt="Thumbnail" width="15%">
+                    <img src="images/shoe.jpg" class="img-thumbnail small-img" alt="Thumbnail" width="15%">
+                </div>
+            </div>
+            <!-- Product Images end -->
+
+            <!--Product Details start -->
+            <div class="col-lg-6 col-md-6">
+
+                <!-- Product Title & Price -->
+                <h2 class="product-title">LUMORA Premium Sneakers</h2>
+                <h4 class="product-price">$120</h4>
+
+                <!-- Rating -->
+                <div class="rating mb-2">
+                    <span class="text-warning">★</span>
+                    <span class="fw-bold">(4.8)</span> <span class="text-muted">1.2k Reviews</span>
+                </div>
+
+                <!-- Color Options -->
+                <div class="colors mb-3">
+                    <p class="fw-bold mb-1">Color:</p>
+                    <div class="d-flex gap-2">
+                        <span class="color-dot" style="background: grey;"></span>
+                        <span class="color-dot" style="background: black;"></span>
+                        <span class="color-dot" style="background: green;"></span>
+                        <span class="color-dot" style="background: brown;"></span>
+                    </div>
+                </div>
+
+                <!-- Product Description -->
+                <div class="product-description mb-4">
+                    <h5>Product Description</h5>
+                    <hr>
+                    <p>
+                        The Nike Air Force 1 Low redefines streetwear style with premium craftsmanship and iconic
+                        design. Featuring a durable canvas and suede upper in earthy tones, this sneaker combines
+                        everyday comfort with a rugged, versatile look. The padded collar and cushioned midsole ensure
+                        all-day support, while the signature Air unit delivers lightweight impact absorption. Perfect
+                        for casual wear, urban style, or adding a timeless touch to your collection.
+                    </p>
+                </div>
+
+                <!-- Specifications -->
+                <div class="specifications mb-4">
+                    <h5>Specification</h5>
+                    <hr>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i> Upper Material: Premium canvas & suede blend</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Midsole: Nike Air cushioning for comfort</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Closure: Lace-up with metal eyelets</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Collar: Padded for ankle support</li>
+                    </ul>
+                </div>
+
+                <!-- Buttons -->
+                <div class="d-flex gap-3">
+                    <button class="btn btn-dark px-4 py-2">Buy Now</button>
+                    <button class="btn btn-outline-dark px-4 py-2">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+
+            </div>
+            <!-- Product Details end -->
+
+        </div>
+    </section>
+    <!-- Product Section start-->
+</body>
+
+</html>

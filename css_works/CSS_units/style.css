@@ -1,0 +1,20 @@
+.Container {
+    background-color: #EEC9CF;
+    border: rgb(0, 0, 0) 2px solid;
+    width: 80%;
+    height: 550px;
+}
+
+.item {
+    background-color: #F1EDEE;
+    border: black 2px solid;
+    width: 75%;
+    height: 250px;
+}
+
+.box {
+    background-color: #CEE7AC;
+    border: black 2px solid;
+    width: 50%;
+    height: 150px;
+}

@@ -1,0 +1,159 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+
+}
+
+.grid-container {
+    /* main grid container */
+    width: 800px;
+    height: 1120px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+
+
+.grid-item {
+    /* grid items */
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.grid-item:nth-child(1) {
+    /* image box */
+    grid-row-start: 1;
+    grid-row-start: 1;
+    height: 250px;
+    width: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.grid-item:nth-child(2) {
+    /* profile and contact info */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #9792ff;
+    color: #1F2937;
+
+}
+
+.grid-item:nth-child(3) {
+    /* Name */
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-color: #2F3E46;
+    color: #CBD5E1;
+
+
+    width: 240px;
+    padding: 5px;
+    text-align: center;
+}
+
+.grid-item:nth-child(4) {
+    /* education */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: rgb(255, 255, 255);
+}
+
+.grid-item:nth-child(5) {
+    /* work experience */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.grid-item:nth-child(6) {
+    /* awards */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: rgb(255, 255, 255);
+}
+
+
+img {
+    /* profile image */
+    width: 250px;
+    height: 250px;
+}
+
+
+.title {
+    /*All title*/
+    height: 30px;
+    text-align: center;
+    font-size: 19px;
+    background-color: #cfd2d8;
+    color: #4F46E5;
+}
+
+
+h1 {
+    /* name tag */
+    text-align: center;
+    font-size: 50px;
+}
+
+.profile {
+    /* profile side spacing */
+    margin-bottom: 80px;
+}
+
+
+.profile>p {
+    /* profile text */
+    color: #FACC15;
+}
+
+
+.contact>p {
+    /* contact text */
+    color: #FACC15;
+}
+
+
+.table {
+    /* education table */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+td {
+    /* educaton table spacing */
+    padding: 18px;
+}
+
+
+p {
+    /* general text */
+    text-align: left;
+    padding: 9px;
+}

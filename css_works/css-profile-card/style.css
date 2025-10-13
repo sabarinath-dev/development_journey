@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C2C2E;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    border: 2px solid #E5E5EA;
+    border-radius: 10px;
+    background-color: #1C1C1E;
+    padding: 10px;
+    position: relative;
+}
+
+.card-image {
+    border: 6px solid #E5E5EA;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%, 50%);
+}
+
+.card-image>img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.card-heading {
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 120px;
+
+}
+
+.Star {
+    color: #FFD700;
+}
+
+.card-body {
+    text-align: center;
+    font-size: 15px;
+    font-family: lato;
+    padding: 10px;
+    color: #C7C7CC;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 10px;
+}
+
+button:nth-child(1) {
+    font-size: 14px;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    color: #2563EB;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+button:nth-child(2) {
+    font-size: 14px;
+    width: 100px;
+    height: 20px;
+    background-color:#2563EB;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: white;
+
+}
