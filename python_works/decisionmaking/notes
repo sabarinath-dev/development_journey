@@ -1,0 +1,17 @@
+
+
+"""
+if condition1:
+    stmt1
+
+elif condition2:
+        stmt2
+elif condition3:
+      stmt3
+.
+.
+
+else:
+    default stmt
+    
+"""

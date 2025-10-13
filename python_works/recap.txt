@@ -1,0 +1,116 @@
+HTML
+CSS
+BOOTSTRAP
+GIT&GIThub
+
+python
+
+
+1.python features 
+2.python applications
+3.environment setup
+4.identifiers(name is called identifiers)
+5.varibales(represents a memory location)
+    #
+        student_name="abijith"
+
+6.operators
+    a)A.O(+,-,/,*,//,%,**)
+    b)R.O(<,>,<=,>=,==,!=) return Boolean
+    c)L.O(and,or,not)
+    6)Ass.O(+=,-=,,,,)
+
+
+
+7.indentation and block 
+
+friuts:
+    mango
+    apple
+    orange
+
+vegitables:
+    potatto
+    onion
+    brinjal
+
+8.decisionmaking 
+    a)if
+    b)if...else
+    c)if...elif...else
+
+9.looping
+
+    a)while
+    b)for
+    c)nested loop
+
+10)functions
+
+    def function_name(p1,p2,p3,,,pn):
+
+        function defnition
+
+        return value
+
+    def add_numbers(n1,n2):
+        return n1+n2
+
+
+    b)lambda function
+
+        add=lambda n1,n2:n1+n2
+
+
+    c)variable length argument methods(*args,**kwargs) as function parameter
+
+    d)recursion
+
+    e)decorators
+
+11)string
+    a)string and string methods
+    props)immutable
+
+12)collections
+
+                   define         mutalbe?        orderd?     duplicates-allowed?   methods
+    
+    a)list          lst=[]          yes              yes            yes
+                    lst=list()    
+
+    b)tuple         tp=(10,)        no                yes             yes
+ 
+    c)set            st={10,20}      yes               no              no  
+                      st=set()
+
+
+    d)dictionary      dic={k:v,k:v}  
+
+
+13)nested collections
+
+14)slicing st[start:stop:step]
+
+15)comprehension
+
+16)fileOperations
+    operations(read,write,append)
+
+    open()
+
+17)error handling
+
+
+
+
+
+
+
+
+
+
+
+
+
+

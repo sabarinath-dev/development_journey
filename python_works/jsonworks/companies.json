@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "name": "OpenAI",
+        "industry": "Artificial Intelligence",
+        "founded": 2015,
+        "hq": "San Francisco, USA",
+        "employees": 1000,
+        "is_public": "False",
+        "products": ["ChatGPT", "GPT-5", "DALL·E"]
+    },
+    {
+        "id": 2,
+        "name": "NVIDIA",
+        "industry": "Semiconductors / AI Hardware",
+        "founded": 1993,
+        "hq": "Santa Clara, USA",
+        "employees": 26000,
+        "is_public": "True",
+        "products": ["RTX GPUs", "CUDA", "DGX Systems"]
+    },
+    {
+        "id": 3,
+        "name": "Tesla",
+        "industry": "Automotive / Energy",
+        "founded": 2003,
+        "hq": "Austin, USA",
+        "employees": 140000,
+        "is_public": "True",
+        "products": ["Model S", "Model 3", "Cybertruck"]
+    },
+    {
+        "id": 4,
+        "name": "SpaceX",
+        "industry": "Aerospace",
+        "founded": 2002,
+        "hq": "Hawthorne, USA",
+        "employees": 13000,
+        "is_public": "False",
+        "products": ["Falcon 9", "Starship", "Starlink"]
+    },
+    {
+        "id": 5,
+        "name": "Apple",
+        "industry": "Consumer Electronics",
+        "founded": 1976,
+        "hq": "Cupertino, USA",
+        "employees": 164000,
+        "is_public": "True",
+        "products": ["iPhone", "MacBook", "Vision Pro"]
+    },
+    {
+        "id": 6,
+        "name": "Microsoft",
+        "industry": "Software / Cloud",
+        "founded": 1975,
+        "hq": "Redmond, USA",
+        "employees": 221000,
+        "is_public": "True",
+        "products": ["Windows", "Azure", "Office 365"]
+    },
+    {
+        "id": 7,
+        "name": "Google",
+        "industry": "Internet / AI",
+        "founded": 1998,
+        "hq": "Mountain View, USA",
+        "employees": 182000,
+        "is_public": "True",
+        "products": ["Search", "Android", "Gemini AI"]
+    },
+    {
+        "id": 8,
+        "name": "Meta",
+        "industry": "Social Media / VR",
+        "founded": 2004,
+        "hq": "Menlo Park, USA",
+        "employees": 67000,
+        "is_public": "True",
+        "products": ["Facebook", "Instagram", "Quest VR"]
+    },
+    {
+        "id": 9,
+        "name": "Amazon",
+        "industry": "E-commerce / Cloud",
+        "founded": 1994,
+        "hq": "Seattle, USA",
+        "employees": 1500000,
+        "is_public": "True",
+        "products": ["Amazon.com", "AWS", "Kindle"]
+    },
+    {
+        "id": 10,
+        "name": "Anthropic",
+        "industry": "Artificial Intelligence",
+        "founded": 2021,
+        "hq": "San Francisco, USA",
+        "employees": 500,
+        "is_public": "False",
+        "products": ["Claude AI"]
+    },
+    {
+        "id": 11,
+        "name": "ByteDance",
+        "industry": "Internet / Entertainment",
+        "founded": 2012,
+        "hq": "Beijing, China",
+        "employees": 110000,
+        "is_public": "False",
+        "products": ["TikTok", "Douyin"]
+    },
+    {
+        "id": 12,
+        "name": "OpenSea",
+        "industry": "Web3 / NFTs",
+        "founded": 2017,
+        "hq": "New York, USA",
+        "employees": 300,
+        "is_public": "False",
+        "products": ["NFT Marketplace"]
+    },
+    {
+        "id": 13,
+        "name": "Stripe",
+        "industry": "Fintech",
+        "founded": 2010,
+        "hq": "San Francisco, USA",
+        "employees": 7000,
+        "is_public": "False",
+        "products": ["Payments", "Stripe Atlas"]
+    },
+    {
+        "id": 14,
+        "name": "Netflix",
+        "industry": "Entertainment / Streaming",
+        "founded": 1997,
+        "hq": "Los Gatos, USA",
+        "employees": 13000,
+        "is_public": "True",
+        "products": ["Netflix Platform"]
+    },
+    {
+        "id": 15,
+        "name": "Zoom",
+        "industry": "Communication",
+        "founded": 2011,
+        "hq": "San Jose, USA",
+        "employees": 8500,
+        "is_public": "True",
+        "products": ["Zoom Meetings", "Zoom Phone"]
+    },
+    {
+        "id": 16,
+        "name": "Uber",
+        "industry": "Mobility / Delivery",
+        "founded": 2009,
+        "hq": "San Francisco, USA",
+        "employees": 32000,
+        "is_public": "True",
+        "products": ["Uber Rides", "Uber Eats"]
+    },
+    {
+        "id": 17,
+        "name": "Spotify",
+        "industry": "Entertainment / Music",
+        "founded": 2006,
+        "hq": "Stockholm, Sweden",
+        "employees": 9000,
+        "is_public": "True",
+        "products": ["Spotify App"]
+    },
+    {
+        "id": 18,
+        "name": "Adobe",
+        "industry": "Software",
+        "founded": 1982,
+        "hq": "San Jose, USA",
+        "employees": 29000,
+        "is_public": "True",
+        "products": ["Photoshop", "Illustrator", "Adobe Firefly AI"]
+    },
+    {
+        "id": 19,
+        "name": "Palantir",
+        "industry": "Data Analytics",
+        "founded": 2003,
+        "hq": "Denver, USA",
+        "employees": 3600,
+        "is_public": "True",
+        "products": ["Palantir Gotham", "Palantir Foundry"]
+    },
+    {
+        "id": 20,
+        "name": "DeepMind",
+        "industry": "Artificial Intelligence",
+        "founded": 2010,
+        "hq": "London, UK",
+        "employees": 2000,
+        "is_public": "False",
+        "products": ["AlphaFold", "AlphaGo"]
+    },
+    {
+        "id": 21,
+        "name": "Huawei",
+        "industry": "Telecommunications / Electronics",
+        "founded": 1987,
+        "hq": "Shenzhen, China",
+        "employees": 190000,
+        "is_public": "False",
+        "products": ["Mate Series", "5G Equipment"]
+    },
+    {
+        "id": 22,
+        "name": "BYD",
+        "industry": "Automotive / Batteries",
+        "founded": 1995,
+        "hq": "Shenzhen, China",
+        "employees": 570000,
+        "is_public": "True",
+        "products": ["BYD EVs", "Battery Tech"]
+    },
+    {
+        "id": 23,
+        "name": "Samsung",
+        "industry": "Electronics / Semiconductors",
+        "founded": 1938,
+        "hq": "Seoul, South Korea",
+        "employees": 270000,
+        "is_public": "True",
+        "products": ["Galaxy Smartphones", "Semiconductors"]
+    },
+    {
+        "id": 24,
+        "name": "Oracle",
+        "industry": "Software / Cloud",
+        "founded": 1977,
+        "hq": "Austin, USA",
+        "employees": 164000,
+        "is_public": "True",
+        "products": ["Oracle Cloud", "Databases"]
+    },
+    {
+        "id": 25,
+        "name": "Dell Technologies",
+        "industry": "Hardware / Cloud",
+        "founded": 1984,
+        "hq": "Round Rock, USA",
+        "employees": 133000,
+        "is_public": "True",
+        "products": ["Dell PCs", "EMC Storage"]
+    }
+]

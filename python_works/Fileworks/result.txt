@@ -1,0 +1,3 @@
+maxnumber=1300
+min number =100
+total=6100

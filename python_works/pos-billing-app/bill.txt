@@ -1,0 +1,4 @@
+name	 qty 	 price	
+tea	 2 	 24
+coffe	 1 	 20
+limejuice	 1 	 20

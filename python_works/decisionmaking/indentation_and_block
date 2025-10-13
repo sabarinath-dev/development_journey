@@ -1,0 +1,43 @@
+
+
+
+alreem
+mandhi(alfham-mandhi,smokeandgrilled,periperimandhi)
+juice(lime,mintlime,gingerlime)
+biriyani(chicken,beef,manjali)
+
+alreem:
+    mandhi:
+        alfham-mandhi
+        smokeandgrilled
+        periperimandhi
+
+    juices:
+        lime
+        mintlime
+        ginger
+
+
+
+bikes honda(activa,cb3,unicorn) hero(xpulse,passionpro,destiny) yamaha(ray,fz,r15)
+
+
+decision making
+    if 
+    else
+    elif
+
+looping 
+    while
+    for
+
+function
+    def 
+
+class
+
+errorhandling
+    try
+    except
+    finally
+    
