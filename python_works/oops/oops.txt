@@ -1,0 +1,23 @@
+
+OOPs - Object oriented programming.
+        a way of programming in which we bundle data and behaviour throgh class and object.
+
+object --> an entity with data and behaviour.
+class ---> collection of objects/blueprint.
+
+eg:
+
+    car (class)
+
+        brand --> toyota            (attributes)
+        model --> fortuner          (attributes)
+        color --> phantom black     (attributes)
+        v.no ---> kl02              (attributes)
+
+syntax:
+
+    class class_name:
+        properties
+        behaviour
+
+    object
