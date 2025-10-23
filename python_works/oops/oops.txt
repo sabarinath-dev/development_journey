@@ -4,6 +4,9 @@ OOPs - Object oriented programming.
 
 object --> an entity with data and behaviour.
 class ---> collection of objects/blueprint.
+method ---> a method is a function that belongs to a class and defines the behavior or actions that objects of that class can perform.
+methods are called using 
+    objname.functionname()
 
 eg:
 
